@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Lejin ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <canvas id="hearts"></canvas>
+
+  <header class="top">
+    <div class="brand">💘 Valentine</div>
+    <div class="actions">
+      <button class="btn ghost" id="toggleMusic">🎵 Play song</button>
+      <button class="btn" id="openLetter">Open letter 💌</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero glass">
+      <h1>Lejin ❤️</h1>
+      <h2>You are my home</h2>
+      <p class="sub">I made this small website with a big love.</p>
+
+      <button class="btn primary" id="yesBtn"></button>
+    </section>
+
+    <!-- Cute Proposal Section -->
+    <section class="proposal glass" id="proposal">
+      <h2 class="p-title">Will you be my Valentine?💍</h2>
+      <p class="p-sub">Choose wisely😌💖</p>
+
+      <div class="p-box" id="pBox">
+        <button class="p-yes" id="pYes">Yes 💖</button>
+        <button class="p-no" id="pNo">No 🙈</button>
+      </div>
+
+      <p class="p-hint" id="pHint">Tip: Try clicking “No” 😭</p>
+    </section>
+          <!-- Gift Box (FINAL SURPRISE) -->
+    <div class="gift-wrap">
+      <button id="giftBox" class="gift-box">🎁</button>
+      <p class="gift-text">One last surprise for you😌</p>
+    </div>
+      <div id="ummaMessage" class="umma-message">
+  Love you baby!Ummaaaa😌
+</div>
+
+
+  </main>
+
+  </main>
+
+  <!-- Letter Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-card glass">
+      <button class="x" id="closeModal">✕</button>
+      <p>
+        Every moment with you feels special.
+        I love you always and forever....❤️
+        Hehe cringg adichoooo?😌
+        Saarillaa ennlm i loveeee youuuu!😌❤️
+          (Padikkan vendi indkiya website aan kettoooo..allnd snehm kond onnm allaa ketto mr...)🥱
+
+      </p>
+      <p><strong>Love, Durga ❤️</strong></p>
+    </div>
+  </div>
+
+  <!-- Success Modal -->
+  <div class="modal" id="successModal">
+    <div class="modal-card glass success-card">
+      <button class="x" id="closeSuccess">✕</button>
+      <h2>Good boyy😌</h2>
+      <p class="big">I LOVE YOU!😭❤️</p>
+      <p>
+        You’re my favorite person.
+        Happy Valentine’s Day my love!❤️
+      </p>
+      <button class="btn primary" id="moreHearts">Click here darling</button>
+    </div>
+  </div>
+
+  <!-- Background YouTube Music -->
+  <div id="yt-holder">
+    <div id="ytplayer"></div>
+  </div>
+
+  <!-- YouTube Iframe API -->
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
